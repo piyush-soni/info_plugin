@@ -58,7 +58,7 @@ function html_code()
 		}
 		if(basename($i,'.php') == "info_plugin")
 		{
-			echo "<td> - </td>";
+			echo '<td><button type="button" class="btn btn-danger btn-sm" disabled>DEACTIVATE</button></td>';
 		}
 		else
 		{
